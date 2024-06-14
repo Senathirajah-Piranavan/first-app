@@ -12,7 +12,7 @@ function App() {
 
       <Greet />
 
-      {/* <Hello name ="vetri"/>
+      <Hello name ="vetri"/>
       <Hello name ="maran"/>
 
       <Greet name ="vetri">
@@ -23,9 +23,9 @@ function App() {
         <button>Action</button>
       </Greet>
 
-      <Greet name = "jagatheesh" /> */}
+      <Greet name = "jagatheesh" /> 
 
-      {/* <Message /> */}
+      {/* <Message />
 
          {/* <Counter /> */}
 
