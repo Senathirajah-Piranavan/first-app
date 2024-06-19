@@ -7,10 +7,19 @@ import Counter from './components/Counter'
 
 
 function App() {
+   function handleNameChange() {
+            const name = ['earn','get','won'];
+            const int = Math.floor(Math.random()*3);
+
+            return(
+              name[int]
+            )
+   }
   return (
     <div className="App">
+        <p>You have {handleNameChange ()} Money </p>
 
-      <Greet />
+      {/* <Greet />
 
       <Hello name ="vetri"/>
       <Hello name ="maran"/>
@@ -23,7 +32,7 @@ function App() {
         <button>Action</button>
       </Greet>
 
-      <Greet name = "jagatheesh" /> 
+      <Greet name = "jagatheesh" />  */}
 
       {/* <Message />
 
