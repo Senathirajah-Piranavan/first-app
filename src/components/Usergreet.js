@@ -9,18 +9,36 @@ export class Usergreet extends Component {
       }
     }
   render() {
-    if (this.state.isLoggedIn) {
-        return(<div>Welcome Piranavan</div>)
-    } else{
-        return(<div>Welcome Guest</div>)
-    }
-    return (
-        <div>
-            <div>Welcome Piranavan </div>
-            <div>Welcome Guest</div>
-        </div>
+
+             return this.state.isLoggedIn && <div>Welcome Piranavan </div>
+            
+          //  return(
+          //    this.state.isLoggedIn ?
+          //    <div>Welcome Piranavan</div> :
+          //    <div>Welcome Guest</div>
+          //  )
+
+  //   let message 
+  //   if (this.state.isLoggedIn) {
+  //     message = (<div>Welcome Piranavan</div>)
+  // } else{
+  //     message = (<div>Welcome Guest</div>)
+  // }
+  //    return <div>{message}</div>
+
+
+    // if (this.state.isLoggedIn) {
+    //     return(<div>Welcome Piranavan</div>)
+    // } else{
+    //     return(<div>Welcome Guest</div>)
+    // }
+    // return (
+    //     <div>
+    //         <div>Welcome Piranavan </div>
+    //         <div>Welcome Guest</div>
+    //     </div>
       
-    )
+    // )
   }
 }
 
