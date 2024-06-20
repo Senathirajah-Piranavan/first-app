@@ -4,20 +4,26 @@ import Greet from './components/Greet'
 import Hello from './components/Hello'
 import Message from './components/Message'
 import Counter from './components/Counter'
+import Usergreet from './components/Usergreet';
 
 
 function App() {
-   function handleNameChange() {
-            const name = ['earn','get','won'];
-            const int = Math.floor(Math.random()*3);
+//    function handleNameChange() {
+//             const name = ['earn','get','won'];
+//             const int = Math.floor(Math.random()*3);
 
-            return(
-              name[int]
-            )
-   }
-  return (
-    <div className="App">
-        <p>You have {handleNameChange ()} Money </p>
+//             return(
+//               name[int]
+//             )
+//    }
+ return (
+    <div className="App"> 
+
+              <Usergreet />  
+
+        {/* <p>You have {handleNameChange ()} Money </p> */}
+        
+        
 
       {/* <Greet />
 
@@ -34,12 +40,13 @@ function App() {
 
       <Greet name = "jagatheesh" />  */}
 
-      {/* <Message />
+      {/* <Message /> */}
 
-         {/* <Counter /> */}
+      {/* <Counter /> */}
 
     </div>
   );
 }
+
 
 export default App;
