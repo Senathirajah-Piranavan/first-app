@@ -10,6 +10,8 @@ import State from './components/State';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import Eventbind from './components/Eventbind';
+import ParentComponent from './components/ParentComponent';
+import NameList from './components/NameList';
 
 function App() {
 //    function handleNameChange() {
@@ -58,8 +60,12 @@ function App() {
 
       {/* <FunctionClick/>
       <ClassClick/> */}
-      
-      <Eventbind/>
+
+      {/* <Eventbind/> */}
+
+      {/* <ParentComponent/> */}
+
+      <NameList/>
 
     </div>
   );
