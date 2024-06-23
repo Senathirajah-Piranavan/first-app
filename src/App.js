@@ -5,6 +5,7 @@ import Hello from './components/Hello'
 import Message from './components/Message'
 import Counter from './components/Counter'
 import Usergreet from './components/Usergreet';
+import Welcome from './components/Welcome';
 
 
 function App() {
@@ -19,7 +20,10 @@ function App() {
  return (
     <div className="App"> 
 
-              <Usergreet />  
+         <Welcome name = 'piranavan'/>
+         {/* <Welcome name = 'kaji'/> */}
+
+              {/* <Usergreet />   */}
 
         {/* <p>You have {handleNameChange ()} Money </p> */}
         
