@@ -6,7 +6,10 @@ import Message from './components/Message'
 import Counter from './components/Counter'
 import Usergreet from './components/Usergreet';
 import Welcome from './components/Welcome';
-
+import State from './components/State';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+import Eventbind from './components/Eventbind';
 
 function App() {
 //    function handleNameChange() {
@@ -20,8 +23,12 @@ function App() {
  return (
     <div className="App"> 
 
-         <Welcome name = 'piranavan'/>
-         {/* <Welcome name = 'kaji'/> */}
+        {/* <State /> */}
+
+         {/* <Welcome name = 'piranavan'/>
+         <p>How are you?</p>
+         <Welcome name = 'kaji' degree ='SE'/>
+         <button>Action</button> */}
 
               {/* <Usergreet />   */}
 
@@ -47,6 +54,12 @@ function App() {
       {/* <Message /> */}
 
       {/* <Counter /> */}
+      
+
+      {/* <FunctionClick/>
+      <ClassClick/> */}
+      
+      <Eventbind/>
 
     </div>
   );
