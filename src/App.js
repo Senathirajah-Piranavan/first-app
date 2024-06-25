@@ -12,6 +12,10 @@ import ClassClick from './components/ClassClick';
 import Eventbind from './components/Eventbind';
 import ParentComponent from './components/ParentComponent';
 import NameList from './components/NameList';
+import StyleSheet from './components/StyleSheet';
+import InLine from './components/InLine';
+import './appStyles.css';
+import styles from './appStyles.modules.css';
 
 function App() {
 //    function handleNameChange() {
@@ -24,6 +28,8 @@ function App() {
 //    }
  return (
     <div className="App"> 
+         <h1 className='error'>Error</h1>
+         <h1 className={styles.success}>success</h1>
 
         {/* <State /> */}
 
@@ -65,7 +71,10 @@ function App() {
 
       {/* <ParentComponent/> */}
 
-      <NameList/>
+      {/* <NameList/> */}
+      <StyleSheet primary= {true}/>
+      <InLine/>
+
 
     </div>
   );
