@@ -16,6 +16,7 @@ import StyleSheet from './components/StyleSheet';
 import InLine from './components/InLine';
 import './appStyles.css';
 import styles from './appStyles.modules.css';
+import Forms from './components/Forms';
 
 function App() {
 //    function handleNameChange() {
@@ -28,8 +29,8 @@ function App() {
 //    }
  return (
     <div className="App"> 
-         <h1 className='error'>Error</h1>
-         <h1 className={styles.success}>success</h1>
+         {/* <h1 className='error'>Error</h1>
+         <h1 className={styles.success}>success</h1> */}
 
         {/* <State /> */}
 
@@ -72,8 +73,10 @@ function App() {
       {/* <ParentComponent/> */}
 
       {/* <NameList/> */}
-      <StyleSheet primary= {true}/>
-      <InLine/>
+      {/* <StyleSheet primary= {true}/>
+      <InLine/> */}
+
+      <Forms/>
 
 
     </div>
