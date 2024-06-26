@@ -17,6 +17,7 @@ import InLine from './components/InLine';
 import './appStyles.css';
 import styles from './appStyles.modules.css';
 import Forms from './components/Forms';
+import LifecycleA from './components/LifecycleA';
 
 function App() {
 //    function handleNameChange() {
@@ -76,8 +77,8 @@ function App() {
       {/* <StyleSheet primary= {true}/>
       <InLine/> */}
 
-      <Forms/>
-
+      {/* <Forms/> */}
+       <LifecycleA />
 
     </div>
   );
