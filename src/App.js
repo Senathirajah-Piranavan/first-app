@@ -74,8 +74,8 @@ function App() {
       {/* <ParentComponent/> */}
 
       {/* <NameList/> */}
-      {/* <StyleSheet primary= {true}/>
-      <InLine/> */}
+      {/* <StyleSheet primary= {true}/> */}
+      {/* <InLine/> */}
 
       {/* <Forms/> */}
        <LifecycleA />
