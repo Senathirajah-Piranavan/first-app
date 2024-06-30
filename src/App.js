@@ -18,6 +18,9 @@ import './appStyles.css';
 import styles from './appStyles.modules.css';
 import Forms from './components/Forms';
 import LifecycleA from './components/LifecycleA';
+import { Fragment } from 'react';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 function App() {
 //    function handleNameChange() {
@@ -78,7 +81,9 @@ function App() {
       {/* <InLine/> */}
 
       {/* <Forms/> */}
-       <LifecycleA />
+       {/* <LifecycleA /> */}
+       <FragmentDemo />
+       <Table/>
 
     </div>
   );
