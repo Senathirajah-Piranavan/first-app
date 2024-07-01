@@ -21,6 +21,9 @@ import LifecycleA from './components/LifecycleA';
 import { Fragment } from 'react';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
 
 function App() {
 //    function handleNameChange() {
@@ -82,8 +85,13 @@ function App() {
 
       {/* <Forms/> */}
        {/* <LifecycleA /> */}
-       <FragmentDemo />
-       <Table/>
+       {/* <FragmentDemo />
+       <Table/> */}
+
+       {/* <ParentComp/> */}
+
+       {/* <RefsDemo/> */}
+       <FocusInput/>
 
     </div>
   );
