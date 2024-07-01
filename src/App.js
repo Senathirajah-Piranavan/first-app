@@ -24,6 +24,7 @@ import Table from './components/Table';
 import ParentComp from './components/ParentComp';
 import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
+import FRParent from './components/FRParent';
 
 function App() {
 //    function handleNameChange() {
@@ -91,7 +92,8 @@ function App() {
        {/* <ParentComp/> */}
 
        {/* <RefsDemo/> */}
-       <FocusInput/>
+       {/* <FocusInput/> */}
+       <FRParent/>
 
     </div>
   );
