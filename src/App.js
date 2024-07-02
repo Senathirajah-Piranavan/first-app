@@ -25,6 +25,10 @@ import ParentComp from './components/ParentComp';
 import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
 import FRParent from './components/FRParent';
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
 //    function handleNameChange() {
@@ -93,7 +97,22 @@ function App() {
 
        {/* <RefsDemo/> */}
        {/* <FocusInput/> */}
-       <FRParent/>
+       {/* <FRParent/> */}
+       {/* <ErrorBoundary>
+       <Hero heroName='Batman'/>
+       </ErrorBoundary>
+
+       <ErrorBoundary>
+       <Hero heroName='Superman'/>
+       </ErrorBoundary>
+
+       <ErrorBoundary>
+       <Hero heroName='Joker'/>
+       </ErrorBoundary> */}
+
+       <ClickCounter/>
+
+       <HoverCounter/>
 
     </div>
   );
