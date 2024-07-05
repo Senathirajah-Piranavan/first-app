@@ -29,6 +29,7 @@ import Hero from './components/Hero';
 import ErrorBoundary from './components/ErrorBoundary';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
+import ClickCounterTwo from './components/ClickCounterTwo';
 
 function App() {
 //    function handleNameChange() {
@@ -110,9 +111,11 @@ function App() {
        <Hero heroName='Joker'/>
        </ErrorBoundary> */}
 
-       <ClickCounter/>
+       {/* <ClickCounter/>
 
-       <HoverCounter/>
+       <HoverCounter/> */}
+
+       <ClickCounterTwo />
 
     </div>
   );
