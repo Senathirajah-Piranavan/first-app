@@ -30,6 +30,8 @@ import ErrorBoundary from './components/ErrorBoundary';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
 import ClickCounterTwo from './components/ClickCounterTwo';
+import HoverCounterTwo from './components/HoverCounterTwo';
+import User from './User';
 
 function App() {
 //    function handleNameChange() {
@@ -113,9 +115,16 @@ function App() {
 
        {/* <ClickCounter/>
 
+
        <HoverCounter/> */}
 
-       <ClickCounterTwo />
+       <Counter render={(count,incrementCount)=><ClickCounterTwo count = {count} incrementCount={incrementCount}></ClickCounterTwo>}/>
+
+       <Counter render={(count,incrementCount)=><ClickCounterTwo count = {count} incrementCount={incrementCount}></ClickCounterTwo>}/>
+
+       {/* <ClickCounterTwo />
+       <HoverCounterTwo />
+       <User render = { (isLoggedIn) => isLoggedIn ? 'piranav': 'Guest' } /> */}
 
     </div>
   );
